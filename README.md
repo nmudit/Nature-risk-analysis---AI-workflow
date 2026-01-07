@@ -19,25 +19,32 @@ All assumptions, equations, and modelling choices are documented in detail in me
 Key Features: 
 
 •	TNFD LEAP–aligned structure
-    Explicit support for Locate, Evaluate, Assess, Prepare steps
+    Explicit support for Locate, Evaluate, Assess, Prepare steps.
+	
 •	Asset-level analysis
-    Designed for site-level or asset-level assessment (real estate, infrastructure, industrial assets, etc.)
+    Designed for site-level or asset-level assessment (real estate, infrastructure, industrial assets, etc.).
+	
 •	Ecosystem service dependency modelling
-    ENCORE-aligned dependency logic with strength, substitutability, and time-to-failure attributes
+    ENCORE-aligned dependency logic with strength, substitutability, and time-to-failure attributes.
+	
 •	Scenario-based risk framing
-    TNFD 2×2 scenario matrix (physical vs transition nature risk)
+    TNFD 2×2 scenario matrix (physical vs transition nature risk).
+	
 •	Shock propagation engine
-    Severity-tiered, multiplier-based shock modelling across ecosystem services
+    Severity-tiered, multiplier-based shock modelling across ecosystem services.
+	
 •	Financial impact estimation
-    Non-linear (tipping-point-aware) translation of nature risk into EUR exposure ranges
+    Non-linear (tipping-point-aware) translation of nature risk into EUR exposure ranges.
+	
 •	AI-assisted evidence & disclosure layer
     Retrieval-augmented AI agents for:
     •	evidence grounding,
     •	adaptation strategies,
     •	stakeholder narratives
     •	evaluation and feedback loop to refine the outputs with max 3 attempts
+	
 •   Governance & auditability
-    Full explainability pack: assumptions, queries, scores, and evaluator feedback
+    Full explainability pack: assumptions, queries, scores, and evaluator feedback.
 
 ⸻
 
