@@ -1,8 +1,3 @@
-Excellent — below is the fully integrated, end-to-end methodology.md, with all prior detail included, AI’s role fully elaborated, explicit equations, assumptions clearly stated, and a structure suitable for a serious GitHub repository that can stand up to TNFD reviewers, sustainability scientists, and model-risk teams.
-
-You can copy-paste this as-is into methodology.md.
-
-⸻
 
 Methodology
 
