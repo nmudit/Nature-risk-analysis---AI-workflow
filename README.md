@@ -16,7 +16,8 @@ All assumptions, equations, and modelling choices are documented in detail in me
 
 ⸻
 
-Key Features
+Key Features: 
+
 •	TNFD LEAP–aligned structure
     Explicit support for Locate, Evaluate, Assess, Prepare steps
 •	Asset-level analysis
