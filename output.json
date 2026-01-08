@@ -1,0 +1,3412 @@
+[
+  {
+    "analysis_id": "TNFD-1767905851424",
+    "generated_at": "2026-01-08T20:57:31.424Z",
+    "version": "2.0.0",
+    "asset": {
+      "asset_id": "TEST_AGRI_01",
+      "asset_type": "unknown",
+      "sector": "Agriculture",
+      "country": "Brazil",
+      "value_eur": 5000000,
+      "lat": -15.79,
+      "lon": -47.88,
+      "source_record": {
+        "asset_id": "TEST_AGRI_01",
+        "sector": "Agriculture",
+        "lat": -15.79,
+        "lon": -47.88,
+        "value_eur": 5000000,
+        "country": "Brazil",
+        "data_confidence": null,
+        "last_updated": null
+      }
+    },
+    "nature_dependency": {
+      "sector": "Agriculture",
+      "asset_type": "unknown",
+      "value_eur": 5000000,
+      "matched_sectors": [
+        "food_agriculture"
+      ],
+      "environmental_context": {
+        "biome": "Tropical & Subtropical Grasslands, Savannas & Shrublands",
+        "ecoregion": "Cerrado",
+        "realm": "Neotropic",
+        "biome_sensitivity_factor": 1,
+        "water_stress_level": "low",
+        "biodiversity_sensitivity": "low",
+        "gbif_species_count": 73
+      },
+      "dependencies": [
+        {
+          "ecosystem_service": "Pollination",
+          "ecosystem_service_id": "pollination",
+          "category": "Regulating",
+          "dependency_strength": "Very High",
+          "base_strength": "Very High",
+          "dependency_type": "Revenue Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Short",
+          "rationale": "75% of global crops depend on animal pollination. No viable large-scale substitute exists.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Soil Quality Regulation",
+          "ecosystem_service_id": "soil_quality",
+          "category": "Regulating",
+          "dependency_strength": "Very High",
+          "base_strength": "Very High",
+          "dependency_type": "Revenue Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Medium",
+          "rationale": "Crop yields directly depend on soil fertility, structure, and microbial health.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Surface Water",
+          "ecosystem_service_id": "surface_water",
+          "category": "Provisioning",
+          "dependency_strength": "Very High",
+          "base_strength": "Very High",
+          "dependency_type": "Operational Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Short",
+          "rationale": "Irrigation, livestock watering, and food processing require reliable freshwater.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Ground Water",
+          "ecosystem_service_id": "ground_water",
+          "category": "Provisioning",
+          "dependency_strength": "High",
+          "base_strength": "High",
+          "dependency_type": "Operational Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Medium",
+          "rationale": "Groundwater irrigation critical in water-scarce regions. Aquifer depletion is often irreversible.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Pest & Disease Control",
+          "ecosystem_service_id": "pest_control",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "base_strength": "High",
+          "dependency_type": "Revenue Critical",
+          "substitutability": "Medium",
+          "time_to_failure": "Short",
+          "rationale": "Natural predators control crop pests. Chemical alternatives have cost, resistance, and regulatory implications.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Water Quality Regulation",
+          "ecosystem_service_id": "water_quality",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "base_strength": "High",
+          "dependency_type": "Compliance",
+          "substitutability": "Medium",
+          "time_to_failure": "Medium",
+          "rationale": "Food safety standards require clean water. Contamination can halt production.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Climate Regulation",
+          "ecosystem_service_id": "climate_regulation",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "base_strength": "High",
+          "dependency_type": "Revenue Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Medium",
+          "rationale": "Temperature and precipitation patterns directly affect yields, growing seasons, and pest cycles.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        },
+        {
+          "ecosystem_service": "Genetic Materials",
+          "ecosystem_service_id": "genetic_materials",
+          "category": "Provisioning",
+          "dependency_strength": "Medium",
+          "base_strength": "Medium",
+          "dependency_type": "Revenue Critical",
+          "substitutability": "Low",
+          "time_to_failure": "Long",
+          "rationale": "Wild crop relatives provide genetic diversity for breeding disease-resistant varieties.",
+          "context_adjustments": {
+            "biome_sensitivity": 1,
+            "water_stress": "low",
+            "biodiversity_sensitivity": "low",
+            "strength_adjusted": false
+          },
+          "encore_source": "ENCORE Natural Capital Finance Alliance",
+          "confidence": "High"
+        }
+      ],
+      "dependency_count": 8,
+      "sensitivity_flag": "High",
+      "derivation": {
+        "method": "ENCORE-aligned sector mapping with environmental context adjustment",
+        "framework_source": "Natural Capital Finance Alliance ENCORE Database",
+        "framework_url": "https://encore.naturalcapital.finance",
+        "version": "2.0.0",
+        "sectors_covered": 10,
+        "ecosystem_services_covered": 16,
+        "auto_derived": true,
+        "derivation_timestamp": "2026-01-08T20:54:26.654Z"
+      }
+    },
+    "tnfd_scenario_frame": {
+      "horizon_year": 2030,
+      "axes": {
+        "ecosystem_service_degradation": 0.7698,
+        "market_nonmarket_alignment": 0.63
+      },
+      "scenario": {
+        "scenario_id": 2,
+        "scenario_name": "Go fast or go home"
+      },
+      "scenario_detail": {
+        "id": 2,
+        "name": "Go fast or go home",
+        "quadrant": "severe_aligned",
+        "description": "Severe ecosystem degradation but strong alignment of market/non-market forces. Rapid, coordinated transition required.",
+        "risk_posture": "Urgent transformation, high capital reallocation",
+        "typical_response": "Accelerated decarbonization, supply chain restructuring, stranded asset risk",
+        "axes_interpretation": {
+          "physical": "Severe ecosystem service degradation",
+          "transition": "High market/non-market alignment"
+        },
+        "thresholds_used": {
+          "physical": 0.6,
+          "transition": 0.55
+        },
+        "confidence": "High"
+      },
+      "physical_axis_detail": {
+        "score": 0.7697674418604652,
+        "interpretation": "Very High Risk",
+        "base_score": 0.7697674418604652,
+        "environmental_multipliers": {
+          "biome": {
+            "category": "Low",
+            "value": 1
+          },
+          "water_stress": {
+            "level": "low",
+            "value": 1
+          },
+          "biodiversity": {
+            "level": "low",
+            "value": 1
+          },
+          "combined": 1
+        },
+        "top_contributing_dependencies": [
+          {
+            "ecosystem_service": "Pollination",
+            "strength_score": 0.95,
+            "substitutability_score": 0.9,
+            "time_to_failure_score": 0.9,
+            "category_weight": 1,
+            "combined_score": 0.9249999999999999,
+            "weighted_score": 0.9249999999999999
+          },
+          {
+            "ecosystem_service": "Soil Quality Regulation",
+            "strength_score": 0.95,
+            "substitutability_score": 0.9,
+            "time_to_failure_score": 0.6,
+            "category_weight": 1,
+            "combined_score": 0.85,
+            "weighted_score": 0.85
+          },
+          {
+            "ecosystem_service": "Surface Water",
+            "strength_score": 0.95,
+            "substitutability_score": 0.9,
+            "time_to_failure_score": 0.9,
+            "category_weight": 1.2,
+            "combined_score": 0.9249999999999999,
+            "weighted_score": 1.1099999999999999
+          },
+          {
+            "ecosystem_service": "Ground Water",
+            "strength_score": 0.75,
+            "substitutability_score": 0.9,
+            "time_to_failure_score": 0.6,
+            "category_weight": 1.2,
+            "combined_score": 0.75,
+            "weighted_score": 0.8999999999999999
+          },
+          {
+            "ecosystem_service": "Pest & Disease Control",
+            "strength_score": 0.75,
+            "substitutability_score": 0.6,
+            "time_to_failure_score": 0.9,
+            "category_weight": 1,
+            "combined_score": 0.75,
+            "weighted_score": 0.75
+          }
+        ],
+        "method": "dependency_weighted_with_environmental_context"
+      },
+      "transition_axis_detail": {
+        "score": 0.63,
+        "interpretation": "Moderate Alignment",
+        "components": {
+          "country": {
+            "code": "BR",
+            "score": 0.4,
+            "source": "Brazil deforestation policy instability",
+            "weight": 0.45
+          },
+          "sector": {
+            "matched_sectors": [
+              "food_agriculture"
+            ],
+            "pressure": 0.8,
+            "details": [
+              {
+                "sector": "food_agriculture",
+                "pressure": 0.8,
+                "source": "EU deforestation regulation, EUDR, farm-to-fork"
+              }
+            ],
+            "weight": 0.35
+          },
+          "dependency_type_exposure": {
+            "score": 0.8500000000000002,
+            "weight": 0.2
+          }
+        },
+        "method": "country_sector_dependency_weighted"
+      },
+      "methodology": {
+        "framework": "TNFD Scenario Analysis Guidance v1.0",
+        "framework_url": "https://tnfd.global/recommendations-of-the-tnfd/additional-guidance/scenario-analysis/",
+        "axes_basis": "Physical risk from ENCORE dependency mapping; Transition risk from policy alignment + sector pressure",
+        "version": "2.0.0",
+        "calculated_at": "2026-01-08T20:54:26.694Z"
+      },
+      "method_note": "Scenario \"Go fast or go home\" selected based on physical axis (0.77) and transition axis (0.63). Physical threshold: 0.6, Transition threshold: 0.55."
+    },
+    "financial_impact": {
+      "horizon_year": 2030,
+      "asset_value_eur": 5000000,
+      "currency": "EUR",
+      "headline": {
+        "severe_exposure_range": {
+          "low": 6676052,
+          "mid": 14623192,
+          "high": 26575959
+        },
+        "adverse_exposure_range": {
+          "low": 5071178,
+          "mid": 11130773,
+          "high": 20233072
+        },
+        "headline_text": "Estimated 2030 exposure (severe): €6,676,052 - €26,575,959 (mid: €14,623,192)"
+      },
+      "pathway_impacts": [
+        {
+          "ecosystem_service": "Pollination",
+          "ecosystem_service_id": "pollination",
+          "category": "Regulating",
+          "dependency_strength": "Very High",
+          "dependency_type": "Revenue Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.5237,
+              "shock_factor_applied": 0.318,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 98408,
+                  "mid": 196817,
+                  "high": 328028
+                },
+                "capex_eur": {
+                  "low": 65606,
+                  "mid": 131211,
+                  "high": 262422
+                },
+                "revenue_loss_eur": {
+                  "low": 164014,
+                  "mid": 393634,
+                  "high": 721662
+                },
+                "total_exposure_eur": {
+                  "low": 328028,
+                  "mid": 721662,
+                  "high": 1312112
+                },
+                "downtime_days": {
+                  "low": 3,
+                  "mid": 10,
+                  "high": 20
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 196817,
+                "capex_eur": 131211,
+                "revenue_loss_eur": 393634,
+                "total_eur": 721662,
+                "downtime_days": 10
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.9601,
+              "shock_factor_applied": 0.9734,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 301242,
+                  "mid": 602484,
+                  "high": 1004141
+                },
+                "capex_eur": {
+                  "low": 200828,
+                  "mid": 401656,
+                  "high": 803312
+                },
+                "revenue_loss_eur": {
+                  "low": 502070,
+                  "mid": 1204969,
+                  "high": 2209109
+                },
+                "total_exposure_eur": {
+                  "low": 1004140,
+                  "mid": 2209109,
+                  "high": 4016562
+                },
+                "downtime_days": {
+                  "low": 10,
+                  "mid": 30,
+                  "high": 60
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 602484,
+                "capex_eur": 401656,
+                "revenue_loss_eur": 1204969,
+                "total_eur": 2209109,
+                "downtime_days": 30
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 1,
+              "shock_factor_applied": 0.982,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 303899,
+                  "mid": 607798,
+                  "high": 1012996
+                },
+                "capex_eur": {
+                  "low": 202599,
+                  "mid": 405199,
+                  "high": 810397
+                },
+                "revenue_loss_eur": {
+                  "low": 506498,
+                  "mid": 1215596,
+                  "high": 2228592
+                },
+                "total_exposure_eur": {
+                  "low": 1012996,
+                  "mid": 2228593,
+                  "high": 4051985
+                },
+                "downtime_days": {
+                  "low": 10,
+                  "mid": 30,
+                  "high": 61
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 607798,
+                "capex_eur": 405199,
+                "revenue_loss_eur": 1215596,
+                "total_eur": 2228593,
+                "downtime_days": 30
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Soil Quality Regulation",
+          "ecosystem_service_id": "soil_quality",
+          "category": "Regulating",
+          "dependency_strength": "Very High",
+          "dependency_type": "Revenue Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.4523,
+              "shock_factor_applied": 0.1859,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 50021,
+                  "mid": 100041,
+                  "high": 166735
+                },
+                "capex_eur": {
+                  "low": 33347,
+                  "mid": 66694,
+                  "high": 133388
+                },
+                "revenue_loss_eur": {
+                  "low": 83368,
+                  "mid": 200082,
+                  "high": 366818
+                },
+                "total_exposure_eur": {
+                  "low": 166736,
+                  "mid": 366817,
+                  "high": 666941
+                },
+                "downtime_days": {
+                  "low": 2,
+                  "mid": 5,
+                  "high": 10
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 100041,
+                "capex_eur": 66694,
+                "revenue_loss_eur": 200082,
+                "total_eur": 366817,
+                "downtime_days": 5
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.8292,
+              "shock_factor_applied": 0.9082,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 244400,
+                  "mid": 488800,
+                  "high": 814666
+                },
+                "capex_eur": {
+                  "low": 162933,
+                  "mid": 325867,
+                  "high": 651733
+                },
+                "revenue_loss_eur": {
+                  "low": 407333,
+                  "mid": 977600,
+                  "high": 1792266
+                },
+                "total_exposure_eur": {
+                  "low": 814666,
+                  "mid": 1792267,
+                  "high": 3258665
+                },
+                "downtime_days": {
+                  "low": 8,
+                  "mid": 24,
+                  "high": 49
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 488800,
+                "capex_eur": 325867,
+                "revenue_loss_eur": 977600,
+                "total_eur": 1792267,
+                "downtime_days": 24
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 1,
+              "shock_factor_applied": 0.982,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 264260,
+                  "mid": 528520,
+                  "high": 880866
+                },
+                "capex_eur": {
+                  "low": 176173,
+                  "mid": 352347,
+                  "high": 704693
+                },
+                "revenue_loss_eur": {
+                  "low": 440433,
+                  "mid": 1057040,
+                  "high": 1937906
+                },
+                "total_exposure_eur": {
+                  "low": 880866,
+                  "mid": 1937907,
+                  "high": 3523465
+                },
+                "downtime_days": {
+                  "low": 9,
+                  "mid": 26,
+                  "high": 53
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 528520,
+                "capex_eur": 352347,
+                "revenue_loss_eur": 1057040,
+                "total_eur": 1937907,
+                "downtime_days": 26
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Surface Water",
+          "ecosystem_service_id": "surface_water",
+          "category": "Provisioning",
+          "dependency_strength": "Very High",
+          "dependency_type": "Operational Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.4713,
+              "shock_factor_applied": 0.2164,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 111594,
+                  "mid": 223187,
+                  "high": 401737
+                },
+                "capex_eur": {
+                  "low": 66956,
+                  "mid": 156231,
+                  "high": 267825
+                },
+                "revenue_loss_eur": {
+                  "low": 44637,
+                  "mid": 111594,
+                  "high": 223187
+                },
+                "total_exposure_eur": {
+                  "low": 223187,
+                  "mid": 491012,
+                  "high": 892749
+                },
+                "downtime_days": {
+                  "low": 4,
+                  "mid": 11,
+                  "high": 20
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 223187,
+                "capex_eur": 156231,
+                "revenue_loss_eur": 111594,
+                "total_eur": 491012,
+                "downtime_days": 11
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.8641,
+              "shock_factor_applied": 0.9335,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 481452,
+                  "mid": 962905,
+                  "high": 1733228
+                },
+                "capex_eur": {
+                  "low": 288871,
+                  "mid": 674033,
+                  "high": 1155486
+                },
+                "revenue_loss_eur": {
+                  "low": 192581,
+                  "mid": 481452,
+                  "high": 962905
+                },
+                "total_exposure_eur": {
+                  "low": 962904,
+                  "mid": 2118390,
+                  "high": 3851619
+                },
+                "downtime_days": {
+                  "low": 19,
+                  "mid": 48,
+                  "high": 87
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 962905,
+                "capex_eur": 674033,
+                "revenue_loss_eur": 481452,
+                "total_eur": 2118390,
+                "downtime_days": 48
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 1,
+              "shock_factor_applied": 0.982,
+              "adjustment_factor": 2.0631,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 506498,
+                  "mid": 1012996,
+                  "high": 1823393
+                },
+                "capex_eur": {
+                  "low": 303899,
+                  "mid": 709097,
+                  "high": 1215596
+                },
+                "revenue_loss_eur": {
+                  "low": 202599,
+                  "mid": 506498,
+                  "high": 1012996
+                },
+                "total_exposure_eur": {
+                  "low": 1012996,
+                  "mid": 2228591,
+                  "high": 4051985
+                },
+                "downtime_days": {
+                  "low": 20,
+                  "mid": 51,
+                  "high": 91
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 1012996,
+                "capex_eur": 709097,
+                "revenue_loss_eur": 506498,
+                "total_eur": 2228591,
+                "downtime_days": 51
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Ground Water",
+          "ecosystem_service_id": "ground_water",
+          "category": "Provisioning",
+          "dependency_strength": "High",
+          "dependency_type": "Operational Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.354,
+              "shock_factor_applied": 0.0787,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 35302,
+                  "mid": 70603,
+                  "high": 127086
+                },
+                "capex_eur": {
+                  "low": 21181,
+                  "mid": 49422,
+                  "high": 84724
+                },
+                "revenue_loss_eur": {
+                  "low": 14121,
+                  "mid": 35302,
+                  "high": 70603
+                },
+                "total_exposure_eur": {
+                  "low": 70604,
+                  "mid": 155327,
+                  "high": 282413
+                },
+                "downtime_days": {
+                  "low": 1,
+                  "mid": 4,
+                  "high": 6
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 70603,
+                "capex_eur": 49422,
+                "revenue_loss_eur": 35302,
+                "total_eur": 155327,
+                "downtime_days": 4
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.6489,
+              "shock_factor_applied": 0.6199,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 278012,
+                  "mid": 556024,
+                  "high": 1000843
+                },
+                "capex_eur": {
+                  "low": 166807,
+                  "mid": 389217,
+                  "high": 667229
+                },
+                "revenue_loss_eur": {
+                  "low": 111205,
+                  "mid": 278012,
+                  "high": 556024
+                },
+                "total_exposure_eur": {
+                  "low": 556024,
+                  "mid": 1223253,
+                  "high": 2224096
+                },
+                "downtime_days": {
+                  "low": 11,
+                  "mid": 28,
+                  "high": 50
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 556024,
+                "capex_eur": 389217,
+                "revenue_loss_eur": 278012,
+                "total_eur": 1223253,
+                "downtime_days": 28
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 0.9439,
+              "shock_factor_applied": 0.9689,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 434552,
+                  "mid": 869105,
+                  "high": 1564388
+                },
+                "capex_eur": {
+                  "low": 260731,
+                  "mid": 608373,
+                  "high": 1042925
+                },
+                "revenue_loss_eur": {
+                  "low": 173821,
+                  "mid": 434552,
+                  "high": 869105
+                },
+                "total_exposure_eur": {
+                  "low": 869104,
+                  "mid": 1912030,
+                  "high": 3476418
+                },
+                "downtime_days": {
+                  "low": 17,
+                  "mid": 43,
+                  "high": 78
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 869105,
+                "capex_eur": 608373,
+                "revenue_loss_eur": 434552,
+                "total_eur": 1912030,
+                "downtime_days": 43
+              },
+              "calculation_basis": {
+                "dependency_type": "Operational Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "capex": {
+                    "low": 0.03,
+                    "mid": 0.07,
+                    "high": 0.12
+                  },
+                  "revenue": {
+                    "low": 0.02,
+                    "mid": 0.05,
+                    "high": 0.1
+                  },
+                  "downtime_days": {
+                    "low": 10,
+                    "mid": 25,
+                    "high": 45
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Pest & Disease Control",
+          "ecosystem_service_id": "pest_control",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "dependency_type": "Revenue Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.3762,
+              "shock_factor_applied": 0.0964,
+              "adjustment_factor": 1.7192,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 24858,
+                  "mid": 49715,
+                  "high": 82859
+                },
+                "capex_eur": {
+                  "low": 16572,
+                  "mid": 33144,
+                  "high": 66287
+                },
+                "revenue_loss_eur": {
+                  "low": 41429,
+                  "mid": 99431,
+                  "high": 182290
+                },
+                "total_exposure_eur": {
+                  "low": 82859,
+                  "mid": 182290,
+                  "high": 331436
+                },
+                "downtime_days": {
+                  "low": 1,
+                  "mid": 2,
+                  "high": 5
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 49715,
+                "capex_eur": 33144,
+                "revenue_loss_eur": 99431,
+                "total_eur": 182290,
+                "downtime_days": 2
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.6897,
+              "shock_factor_applied": 0.7103,
+              "adjustment_factor": 1.7192,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 183186,
+                  "mid": 366372,
+                  "high": 610620
+                },
+                "capex_eur": {
+                  "low": 122124,
+                  "mid": 244248,
+                  "high": 488496
+                },
+                "revenue_loss_eur": {
+                  "low": 305310,
+                  "mid": 732744,
+                  "high": 1343363
+                },
+                "total_exposure_eur": {
+                  "low": 610620,
+                  "mid": 1343364,
+                  "high": 2442479
+                },
+                "downtime_days": {
+                  "low": 6,
+                  "mid": 18,
+                  "high": 37
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 366372,
+                "capex_eur": 244248,
+                "revenue_loss_eur": 732744,
+                "total_eur": 1343364,
+                "downtime_days": 18
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 1,
+              "shock_factor_applied": 0.982,
+              "adjustment_factor": 1.7192,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 253249,
+                  "mid": 506498,
+                  "high": 844164
+                },
+                "capex_eur": {
+                  "low": 168833,
+                  "mid": 337665,
+                  "high": 675331
+                },
+                "revenue_loss_eur": {
+                  "low": 422082,
+                  "mid": 1012996,
+                  "high": 1857160
+                },
+                "total_exposure_eur": {
+                  "low": 844164,
+                  "mid": 1857159,
+                  "high": 3376655
+                },
+                "downtime_days": {
+                  "low": 8,
+                  "mid": 25,
+                  "high": 51
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 506498,
+                "capex_eur": 337665,
+                "revenue_loss_eur": 1012996,
+                "total_eur": 1857159,
+                "downtime_days": 25
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Short",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Water Quality Regulation",
+          "ecosystem_service_id": "water_quality",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "dependency_type": "Compliance",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.2924,
+              "shock_factor_applied": 0.0441,
+              "adjustment_factor": 1.495,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 13188,
+                  "mid": 26377,
+                  "high": 46159
+                },
+                "capex_eur": {
+                  "low": 16485,
+                  "mid": 32971,
+                  "high": 59348
+                },
+                "revenue_loss_eur": {
+                  "low": 3297,
+                  "mid": 9891,
+                  "high": 19783
+                },
+                "total_exposure_eur": {
+                  "low": 32970,
+                  "mid": 69239,
+                  "high": 125290
+                },
+                "downtime_days": {
+                  "low": 0,
+                  "mid": 1,
+                  "high": 1
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 26377,
+                "capex_eur": 32971,
+                "revenue_loss_eur": 9891,
+                "total_eur": 69239,
+                "downtime_days": 1
+              },
+              "calculation_basis": {
+                "dependency_type": "Compliance",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.04,
+                    "mid": 0.08,
+                    "high": 0.14
+                  },
+                  "capex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "revenue": {
+                    "low": 0.01,
+                    "mid": 0.03,
+                    "high": 0.06
+                  },
+                  "downtime_days": {
+                    "low": 2,
+                    "mid": 8,
+                    "high": 20
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.5361,
+              "shock_factor_applied": 0.3455,
+              "adjustment_factor": 1.495,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 103296,
+                  "mid": 206593,
+                  "high": 361537
+                },
+                "capex_eur": {
+                  "low": 129120,
+                  "mid": 258241,
+                  "high": 464833
+                },
+                "revenue_loss_eur": {
+                  "low": 25824,
+                  "mid": 77472,
+                  "high": 154944
+                },
+                "total_exposure_eur": {
+                  "low": 258240,
+                  "mid": 542306,
+                  "high": 981314
+                },
+                "downtime_days": {
+                  "low": 1,
+                  "mid": 4,
+                  "high": 10
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 206593,
+                "capex_eur": 258241,
+                "revenue_loss_eur": 77472,
+                "total_eur": 542306,
+                "downtime_days": 4
+              },
+              "calculation_basis": {
+                "dependency_type": "Compliance",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.04,
+                    "mid": 0.08,
+                    "high": 0.14
+                  },
+                  "capex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "revenue": {
+                    "low": 0.01,
+                    "mid": 0.03,
+                    "high": 0.06
+                  },
+                  "downtime_days": {
+                    "low": 2,
+                    "mid": 8,
+                    "high": 20
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 0.7798,
+              "shock_factor_applied": 0.8579,
+              "adjustment_factor": 1.495,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 256514,
+                  "mid": 513027,
+                  "high": 897798
+                },
+                "capex_eur": {
+                  "low": 320642,
+                  "mid": 641284,
+                  "high": 1154312
+                },
+                "revenue_loss_eur": {
+                  "low": 64128,
+                  "mid": 192385,
+                  "high": 384771
+                },
+                "total_exposure_eur": {
+                  "low": 641284,
+                  "mid": 1346696,
+                  "high": 2436881
+                },
+                "downtime_days": {
+                  "low": 3,
+                  "mid": 10,
+                  "high": 26
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 513027,
+                "capex_eur": 641284,
+                "revenue_loss_eur": 192385,
+                "total_eur": 1346696,
+                "downtime_days": 10
+              },
+              "calculation_basis": {
+                "dependency_type": "Compliance",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.04,
+                    "mid": 0.08,
+                    "high": 0.14
+                  },
+                  "capex": {
+                    "low": 0.05,
+                    "mid": 0.1,
+                    "high": 0.18
+                  },
+                  "revenue": {
+                    "low": 0.01,
+                    "mid": 0.03,
+                    "high": 0.06
+                  },
+                  "downtime_days": {
+                    "low": 2,
+                    "mid": 8,
+                    "high": 20
+                  }
+                },
+                "substitutability": "Medium",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Climate Regulation",
+          "ecosystem_service_id": "climate_regulation",
+          "category": "Regulating",
+          "dependency_strength": "High",
+          "dependency_type": "Revenue Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.3933,
+              "shock_factor_applied": 0.1123,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 30232,
+                  "mid": 60465,
+                  "high": 100774
+                },
+                "capex_eur": {
+                  "low": 20155,
+                  "mid": 40310,
+                  "high": 80619
+                },
+                "revenue_loss_eur": {
+                  "low": 50387,
+                  "mid": 120929,
+                  "high": 221703
+                },
+                "total_exposure_eur": {
+                  "low": 100774,
+                  "mid": 221704,
+                  "high": 403096
+                },
+                "downtime_days": {
+                  "low": 1,
+                  "mid": 3,
+                  "high": 6
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 60465,
+                "capex_eur": 40310,
+                "revenue_loss_eur": 120929,
+                "total_eur": 221704,
+                "downtime_days": 3
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.721,
+              "shock_factor_applied": 0.7703,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 207287,
+                  "mid": 414575,
+                  "high": 690958
+                },
+                "capex_eur": {
+                  "low": 138192,
+                  "mid": 276383,
+                  "high": 552767
+                },
+                "revenue_loss_eur": {
+                  "low": 345479,
+                  "mid": 829150,
+                  "high": 1520108
+                },
+                "total_exposure_eur": {
+                  "low": 690958,
+                  "mid": 1520108,
+                  "high": 2763833
+                },
+                "downtime_days": {
+                  "low": 7,
+                  "mid": 21,
+                  "high": 41
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 414575,
+                "capex_eur": 276383,
+                "revenue_loss_eur": 829150,
+                "total_eur": 1520108,
+                "downtime_days": 21
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 1,
+              "shock_factor_applied": 0.982,
+              "adjustment_factor": 1.794,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 264260,
+                  "mid": 528520,
+                  "high": 880866
+                },
+                "capex_eur": {
+                  "low": 176173,
+                  "mid": 352347,
+                  "high": 704693
+                },
+                "revenue_loss_eur": {
+                  "low": 440433,
+                  "mid": 1057040,
+                  "high": 1937906
+                },
+                "total_exposure_eur": {
+                  "low": 880866,
+                  "mid": 1937907,
+                  "high": 3523465
+                },
+                "downtime_days": {
+                  "low": 9,
+                  "mid": 26,
+                  "high": 53
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 528520,
+                "capex_eur": 352347,
+                "revenue_loss_eur": 1057040,
+                "total_eur": 1937907,
+                "downtime_days": 26
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Medium",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        },
+        {
+          "ecosystem_service": "Genetic Materials",
+          "ecosystem_service_id": "genetic_materials",
+          "category": "Provisioning",
+          "dependency_strength": "Medium",
+          "dependency_type": "Revenue Critical",
+          "confidence": "High",
+          "tier_impacts": [
+            {
+              "tier_id": "base",
+              "tier_label": "Base (Expected)",
+              "horizon_year": 2030,
+              "severity_input": 0.265,
+              "shock_factor_applied": 0.0339,
+              "adjustment_factor": 1.4352,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 7297,
+                  "mid": 14594,
+                  "high": 24323
+                },
+                "capex_eur": {
+                  "low": 4865,
+                  "mid": 9729,
+                  "high": 19459
+                },
+                "revenue_loss_eur": {
+                  "low": 12162,
+                  "mid": 29188,
+                  "high": 53511
+                },
+                "total_exposure_eur": {
+                  "low": 24324,
+                  "mid": 53511,
+                  "high": 97293
+                },
+                "downtime_days": {
+                  "low": 0,
+                  "mid": 1,
+                  "high": 1
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 14594,
+                "capex_eur": 9729,
+                "revenue_loss_eur": 29188,
+                "total_eur": 53511,
+                "downtime_days": 1
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Long",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "adverse",
+              "tier_label": "Adverse (Stressed)",
+              "horizon_year": 2030,
+              "severity_input": 0.4858,
+              "shock_factor_applied": 0.242,
+              "adjustment_factor": 1.4352,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 52088,
+                  "mid": 104175,
+                  "high": 173626
+                },
+                "capex_eur": {
+                  "low": 34725,
+                  "mid": 69450,
+                  "high": 138901
+                },
+                "revenue_loss_eur": {
+                  "low": 86813,
+                  "mid": 208351,
+                  "high": 381977
+                },
+                "total_exposure_eur": {
+                  "low": 173626,
+                  "mid": 381976,
+                  "high": 694504
+                },
+                "downtime_days": {
+                  "low": 2,
+                  "mid": 5,
+                  "high": 10
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 104175,
+                "capex_eur": 69450,
+                "revenue_loss_eur": 208351,
+                "total_eur": 381976,
+                "downtime_days": 5
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Long",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            },
+            {
+              "tier_id": "severe",
+              "tier_label": "Severe (Crisis)",
+              "horizon_year": 2030,
+              "severity_input": 0.7066,
+              "shock_factor_applied": 0.7438,
+              "adjustment_factor": 1.4352,
+              "currency": "EUR",
+              "impacts": {
+                "opex_eur": {
+                  "low": 160133,
+                  "mid": 320266,
+                  "high": 533776
+                },
+                "capex_eur": {
+                  "low": 106755,
+                  "mid": 213511,
+                  "high": 427021
+                },
+                "revenue_loss_eur": {
+                  "low": 266888,
+                  "mid": 640532,
+                  "high": 1174308
+                },
+                "total_exposure_eur": {
+                  "low": 533776,
+                  "mid": 1174309,
+                  "high": 2135105
+                },
+                "downtime_days": {
+                  "low": 5,
+                  "mid": 16,
+                  "high": 32
+                }
+              },
+              "impacts_midpoint": {
+                "opex_eur": 320266,
+                "capex_eur": 213511,
+                "revenue_loss_eur": 640532,
+                "total_eur": 1174309,
+                "downtime_days": 16
+              },
+              "calculation_basis": {
+                "dependency_type": "Revenue Critical",
+                "base_rates_used": {
+                  "opex": {
+                    "low": 0.03,
+                    "mid": 0.06,
+                    "high": 0.1
+                  },
+                  "capex": {
+                    "low": 0.02,
+                    "mid": 0.04,
+                    "high": 0.08
+                  },
+                  "revenue": {
+                    "low": 0.05,
+                    "mid": 0.12,
+                    "high": 0.22
+                  },
+                  "downtime_days": {
+                    "low": 5,
+                    "mid": 15,
+                    "high": 30
+                  }
+                },
+                "substitutability": "Low",
+                "time_to_failure": "Long",
+                "sector_multiplier": 1.3,
+                "scenario_multiplier": 1.15
+              }
+            }
+          ]
+        }
+      ],
+      "totals_by_tier": [
+        {
+          "tier_id": "base",
+          "tier_label": "Base (Expected)",
+          "horizon_year": 2030,
+          "pathway_count": 8,
+          "totals": {
+            "opex_eur": {
+              "low": 370900,
+              "mid": 741799,
+              "high": 1277701
+            },
+            "capex_eur": {
+              "low": 245167,
+              "mid": 519712,
+              "high": 974072
+            },
+            "revenue_loss_eur": {
+              "low": 413415,
+              "mid": 1000051,
+              "high": 1859557
+            },
+            "total_exposure_eur": {
+              "low": 1029482,
+              "mid": 2261562,
+              "high": 4111330
+            },
+            "downtime_days": {
+              "low": 4,
+              "mid": 11,
+              "high": 20
+            }
+          },
+          "totals_midpoint": {
+            "opex_eur": 741799,
+            "capex_eur": 519712,
+            "revenue_loss_eur": 1000051,
+            "total_eur": 2261562,
+            "downtime_days": 11
+          }
+        },
+        {
+          "tier_id": "adverse",
+          "tier_label": "Adverse (Stressed)",
+          "horizon_year": 2030,
+          "pathway_count": 8,
+          "totals": {
+            "opex_eur": {
+              "low": 1850963,
+              "mid": 3701928,
+              "high": 6389619
+            },
+            "capex_eur": {
+              "low": 1243600,
+              "mid": 2639095,
+              "high": 4922757
+            },
+            "revenue_loss_eur": {
+              "low": 1976615,
+              "mid": 4789750,
+              "high": 8920696
+            },
+            "total_exposure_eur": {
+              "low": 5071178,
+              "mid": 11130773,
+              "high": 20233072
+            },
+            "downtime_days": {
+              "low": 19,
+              "mid": 48,
+              "high": 87
+            }
+          },
+          "totals_midpoint": {
+            "opex_eur": 3701928,
+            "capex_eur": 2639095,
+            "revenue_loss_eur": 4789750,
+            "total_eur": 11130773,
+            "downtime_days": 48
+          }
+        },
+        {
+          "tier_id": "severe",
+          "tier_label": "Severe (Crisis)",
+          "horizon_year": 2030,
+          "pathway_count": 8,
+          "totals": {
+            "opex_eur": {
+              "low": 2443365,
+              "mid": 4886730,
+              "high": 8438247
+            },
+            "capex_eur": {
+              "low": 1715805,
+              "mid": 3619823,
+              "high": 6734968
+            },
+            "revenue_loss_eur": {
+              "low": 2516882,
+              "mid": 6116639,
+              "high": 11402744
+            },
+            "total_exposure_eur": {
+              "low": 6676052,
+              "mid": 14623192,
+              "high": 26575959
+            },
+            "downtime_days": {
+              "low": 20,
+              "mid": 51,
+              "high": 91
+            }
+          },
+          "totals_midpoint": {
+            "opex_eur": 4886730,
+            "capex_eur": 3619823,
+            "revenue_loss_eur": 6116639,
+            "total_eur": 14623192,
+            "downtime_days": 51
+          }
+        }
+      ],
+      "severe_total_eur": 14623192,
+      "opex_eur": 4886730,
+      "capex_eur": 3619823,
+      "revenue_eur": 6116639,
+      "top_drivers": [
+        {
+          "ecosystem_service": "Pollination",
+          "dependency_strength": "Very High",
+          "severe_total_eur": 2228593
+        },
+        {
+          "ecosystem_service": "Surface Water",
+          "dependency_strength": "Very High",
+          "severe_total_eur": 2228591
+        },
+        {
+          "ecosystem_service": "Soil Quality Regulation",
+          "dependency_strength": "Very High",
+          "severe_total_eur": 1937907
+        }
+      ],
+      "confidence": {
+        "overall": "High",
+        "description": "Based on sector benchmarks with empirical validation",
+        "pathway_confidence_breakdown": [
+          {
+            "ecosystem_service": "Pollination",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Soil Quality Regulation",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Surface Water",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Ground Water",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Pest & Disease Control",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Water Quality Regulation",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Climate Regulation",
+            "confidence": "High"
+          },
+          {
+            "ecosystem_service": "Genetic Materials",
+            "confidence": "High"
+          }
+        ]
+      },
+      "methodology": {
+        "version": "2.0.0",
+        "approach": "Transmission channel modeling with tipping point non-linearity",
+        "tipping_point_parameters": {
+          "k": 10,
+          "x0": 0.6
+        },
+        "sector_multiplier_applied": 1.3,
+        "sector_multiplier_source": "Matched sectors: food_agriculture",
+        "scenario_multiplier_applied": 1.15,
+        "scenario_name": "Go fast or go home",
+        "calibration_note": "Transmission rates are sector-generic estimates. Calibrate with actual financial data for production use.",
+        "limitations": [
+          "Point-in-time analysis; does not model dynamic adaptation",
+          "Transmission rates based on sector averages, not company-specific",
+          "Does not capture second-order effects (supply chain, regional)",
+          "Confidence intervals are symmetric; real distributions may be skewed"
+        ]
+      }
+    },
+    "evidence_synthesis": {
+      "asset_id": "TEST_AGRI_01",
+      "scenario_name": "Go fast or go home",
+      "synthesis_timestamp": "2023-10-05T12:00:00Z",
+      "attempt_number": 1,
+      "retrieval_summary": {
+        "queries_executed": 5,
+        "total_chunks_reviewed": 60,
+        "sources_cited": 10
+      },
+      "pathways": [
+        {
+          "pathway_id": "P1",
+          "pathway_name": "Pollination Decline → Yield Loss",
+          "ecosystem_service": "Pollination",
+          "dependency_strength": "Very High",
+          "retrieval_log": {
+            "queries_used": [
+              "pollination pollinator decline bee colony collapse crop yields agricultural dependence insect populations Agriculture Brazil unknown"
+            ],
+            "chunks_reviewed": 12,
+            "relevant_chunks_found": 4
+          },
+          "framework_support": {
+            "has_support": true,
+            "sources": [
+              {
+                "framework": "DNB",
+                "document": "DNB Exploring scenarios with transition and physical shocks",
+                "reference": "Page 27",
+                "relevant_quote": "A global scenario of a decline in wild pollinators, which decreases the productivity of certain crops.",
+                "alignment_note": "Highlights the impact of pollinator decline on agricultural productivity, relevant to Brazil's crop dependency."
+              }
+            ]
+          },
+          "empirical_precedents": {
+            "has_precedents": true,
+            "cases": [
+              {
+                "entity": "Brazil",
+                "year": "2023",
+                "event": "Pollinator decline impacting crop yields",
+                "impact": "3.6% increase in consumer prices",
+                "source": "DNB Exploring scenarios with transition and physical shocks",
+                "relevance": "High",
+                "relevance_note": "Directly affects Brazil's agricultural sector, increasing costs and impacting yields."
+              }
+            ]
+          },
+          "quantified_thresholds": {
+            "has_thresholds": false,
+            "thresholds": []
+          },
+          "transmission_mechanism": {
+            "description": "Pollinator decline leads to reduced crop yields, increasing production costs and consumer prices.",
+            "channels": [
+              "revenue disruption",
+              "operational costs"
+            ],
+            "source": "DNB Exploring scenarios with transition and physical shocks"
+          },
+          "evidence_assessment": {
+            "strength": "High",
+            "confidence_factors": [
+              "Multiple sources confirm pollinator decline impacts",
+              "Direct relevance to Brazil"
+            ],
+            "gaps": [
+              "Lack of specific thresholds"
+            ],
+            "recommendations": [
+              "Further research on regional pollinator population dynamics"
+            ]
+          }
+        },
+        {
+          "pathway_id": "P2",
+          "pathway_name": "Soil Degradation → Yield Reduction",
+          "ecosystem_service": "Soil Quality Regulation",
+          "dependency_strength": "Very High",
+          "retrieval_log": {
+            "queries_used": [
+              "soil quality fertility erosion degradation soil health regenerative agriculture nutrient cycling Agriculture Brazil unknown"
+            ],
+            "chunks_reviewed": 12,
+            "relevant_chunks_found": 3
+          },
+          "framework_support": {
+            "has_support": true,
+            "sources": [
+              {
+                "framework": "NGFS",
+                "document": "NGFS REPORT",
+                "reference": "Page 26",
+                "relevant_quote": "Soil quality regulation is critical for local agriculture.",
+                "alignment_note": "Supports the importance of soil quality for agricultural productivity."
+              }
+            ]
+          },
+          "empirical_precedents": {
+            "has_precedents": false,
+            "cases": []
+          },
+          "quantified_thresholds": {
+            "has_thresholds": false,
+            "thresholds": []
+          },
+          "transmission_mechanism": {
+            "description": "Degradation of soil quality reduces agricultural yields, increasing input costs.",
+            "channels": [
+              "revenue disruption",
+              "operational costs"
+            ],
+            "source": "NGFS REPORT"
+          },
+          "evidence_assessment": {
+            "strength": "Medium",
+            "confidence_factors": [
+              "Framework support",
+              "General relevance to agriculture"
+            ],
+            "gaps": [
+              "Lack of empirical precedents and quantified thresholds"
+            ],
+            "recommendations": [
+              "Empirical studies on soil degradation impacts in Brazil"
+            ]
+          }
+        },
+        {
+          "pathway_id": "P3",
+          "pathway_name": "Surface Water Scarcity → Production Disruption",
+          "ecosystem_service": "Surface Water",
+          "dependency_strength": "Very High",
+          "retrieval_log": {
+            "queries_used": [
+              "surface water dependency water scarcity freshwater availability drought water allocation industrial water use competition Agriculture Brazil unknown"
+            ],
+            "chunks_reviewed": 12,
+            "relevant_chunks_found": 2
+          },
+          "framework_support": {
+            "has_support": true,
+            "sources": [
+              {
+                "framework": "NGFS",
+                "document": "NGFS REPORT",
+                "reference": "Page 26",
+                "relevant_quote": "Water scarcity impacts agriculture and energy production.",
+                "alignment_note": "Relevant to Brazil's reliance on surface water for agriculture."
+              }
+            ]
+          },
+          "empirical_precedents": {
+            "has_precedents": false,
+            "cases": []
+          },
+          "quantified_thresholds": {
+            "has_thresholds": false,
+            "thresholds": []
+          },
+          "transmission_mechanism": {
+            "description": "Water scarcity disrupts agricultural production, increasing operational costs.",
+            "channels": [
+              "operational costs",
+              "production disruption"
+            ],
+            "source": "NGFS REPORT"
+          },
+          "evidence_assessment": {
+            "strength": "Medium",
+            "confidence_factors": [
+              "Framework support",
+              "General relevance to agriculture"
+            ],
+            "gaps": [
+              "Lack of empirical precedents and quantified thresholds"
+            ],
+            "recommendations": [
+              "Case studies on water scarcity impacts in Brazil"
+            ]
+          }
+        }
+      ],
+      "cross_cutting_themes": [
+        {
+          "theme": "Urgent Transition Needs",
+          "description": "The scenario emphasizes rapid transition to address severe ecosystem degradation.",
+          "relevant_pathways": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "source": "TNFD Scenario Guidance"
+        }
+      ],
+      "knowledge_gaps": [
+        {
+          "gap": "Lack of quantified thresholds for pollination and soil quality impacts",
+          "queries_attempted": [
+            "pollination pollinator decline bee colony collapse crop yields agricultural dependence insect populations Agriculture Brazil unknown",
+            "soil quality fertility erosion degradation soil health regenerative agriculture nutrient cycling Agriculture Brazil unknown"
+          ],
+          "impact_on_analysis": "Limits ability to precisely quantify financial impacts.",
+          "suggested_sources": [
+            "Empirical studies on regional pollinator and soil dynamics"
+          ]
+        }
+      ],
+      "sources_bibliography": [
+        {
+          "id": "S1",
+          "document": "DNB Exploring scenarios with transition and physical shocks",
+          "framework": "DNB",
+          "used_for_pathways": [
+            "P1"
+          ]
+        },
+        {
+          "id": "S2",
+          "document": "NGFS REPORT",
+          "framework": "NGFS",
+          "used_for_pathways": [
+            "P2",
+            "P3"
+          ]
+        }
+      ],
+      "revision_notes": "",
+      "methodology_note": "Executed targeted queries for each critical dependency, focusing on framework support and empirical precedents."
+    },
+    "adaptation_strategy": {
+      "asset_id": "TEST_AGRI_01",
+      "scenario_name": "Go fast or go home",
+      "horizon_year": 2030,
+      "strategy_timestamp": "2023-10-10T00:00:00Z",
+      "attempt_number": 1,
+      "retrieval_summary": {
+        "queries_executed": 11,
+        "chunks_reviewed": 120,
+        "frameworks_cited": [
+          "SBTN",
+          "TNFD",
+          "WWF"
+        ],
+        "case_studies_found": 5,
+        "cost_benchmarks_found": 8
+      },
+      "strategic_overview": {
+        "risk_posture": "Urgent transformation required due to very high physical risk and moderate transition risk.",
+        "strategic_intent": "To implement nature-based solutions that enhance resilience, improve water management, and ensure sustainable agricultural practices.",
+        "framework_alignment": {
+          "sbtn_alignment": "Aligns with SBTN targets for land, freshwater, and biodiversity.",
+          "tnfd_alignment": "Supports TNFD recommendations for nature-positive commitments.",
+          "source": "TNFD Guidance on Nature-Positive Corporate Implementation"
+        },
+        "total_estimated_investment": {
+          "low": 250000,
+          "high": 340000,
+          "confidence": "Medium",
+          "benchmark_source": "Case studies from Nestlé's water management projects"
+        },
+        "potential_risk_reduction": {
+          "percentage": 40,
+          "confidence": "Medium",
+          "basis": "Based on improved agricultural practices and water management techniques"
+        }
+      },
+      "pathway_strategies": [
+        {
+          "pathway_id": "P1",
+          "pathway_name": "Water Management",
+          "ecosystem_service": "Freshwater Regulation",
+          "current_exposure": "High water dependency in agricultural production.",
+          "strategy_grounding": {
+            "queries_used": [
+              "TNFD strategy response Go fast or go home nature positive corporate implementation",
+              "SBTN science based targets nature food_agriculture target setting methodology",
+              "pollinator habitat restoration cost food_agriculture Brazil",
+              "integrated pest management transition food_agriculture Brazil",
+              "regenerative agriculture SBTN land food_agriculture Brazil",
+              "soil health improvement cost food_agriculture Brazil",
+              "water stewardship SBTN freshwater target AWS food_agriculture Brazil",
+              "water recycling cost benchmark food_agriculture Brazil",
+              "groundwater management aquifer corporate food_agriculture Brazil",
+              "water efficiency implementation food_agriculture Brazil",
+              "nature-based solutions implementation cost benchmark ROI business case"
+            ],
+            "framework_guidance_found": true,
+            "case_studies_found": true,
+            "cost_benchmarks_found": true
+          },
+          "short_term_actions": {
+            "timeframe": "0-12 months",
+            "actions": [
+              {
+                "action_id": "ST1",
+                "title": "Implement Water Efficiency Practices",
+                "description": "Adopt water-efficient agricultural practices such as rainwater harvesting and improved irrigation systems to reduce water consumption and enhance crop resilience.",
+                "implementation_steps": [
+                  "Conduct an assessment of current water use.",
+                  "Train farmers on efficient irrigation techniques.",
+                  "Install water sensors for real-time monitoring."
+                ],
+                "grounding": {
+                  "framework_alignment": "SBTN | TNFD | WWF | None",
+                  "framework_reference": "SBTN Water Stewardship Guidelines",
+                  "framework_quote": "Establish (science-based) targets to reduce your pressures on freshwater.",
+                  "case_study_support": {
+                    "entity": "Nestlé",
+                    "action_taken": "Implemented water-saving technologies in Brazil.",
+                    "outcome": "Saved 50 million m3 of water annually.",
+                    "source": "Nestlé Sustainability Report 2022"
+                  },
+                  "cost_benchmark": {
+                    "range": "€100,000-150,000",
+                    "unit": "annual investment",
+                    "source": "Internal estimate based on previous projects",
+                    "confidence": "Medium"
+                  }
+                },
+                "estimated_cost": {
+                  "amount_eur": 125000,
+                  "type": "CAPEX",
+                  "derivation": "Based on historical project costs."
+                },
+                "risk_reduction": {
+                  "estimate": "40%",
+                  "mechanism": "Improved water management reduces drought impact.",
+                  "evidence_basis": "Based on case studies from similar agricultural projects."
+                },
+                "feasibility": "High",
+                "co_benefits": [
+                  "Improved soil health",
+                  "Increased crop yields",
+                  "Enhanced community resilience"
+                ],
+                "dependencies": [
+                  "Access to training resources",
+                  "Collaboration with local agricultural agencies"
+                ],
+                "kpis": [
+                  "Reduction in water usage",
+                  "Increase in crop yield",
+                  "Number of farmers trained"
+                ]
+              }
+            ]
+          },
+          "medium_term_investments": {
+            "timeframe": "1-3 years",
+            "actions": [
+              {
+                "action_id": "MT1",
+                "title": "Invest in Water Recycling Technologies",
+                "description": "Implement water recycling systems in processing facilities to minimize freshwater usage and reduce operational costs.",
+                "implementation_steps": [
+                  "Identify suitable recycling technologies.",
+                  "Conduct cost-benefit analysis for implementation.",
+                  "Train staff on new systems."
+                ],
+                "grounding": {
+                  "framework_alignment": "SBTN | TNFD | WWF | None",
+                  "framework_reference": "TNFD Guidance on Water Stewardship",
+                  "framework_quote": "Invest in water-efficient farming technologies and water recycling technologies.",
+                  "case_study_support": {
+                    "entity": "Nestlé",
+                    "action_taken": "Upgraded water recycling systems in South Africa.",
+                    "outcome": "Reduced water usage by 70%.",
+                    "source": "Nestlé Sustainability Report 2022"
+                  },
+                  "cost_benchmark": {
+                    "range": "€250,000-500,000",
+                    "unit": "project investment",
+                    "source": "Internal estimate based on similar projects",
+                    "confidence": "Medium"
+                  }
+                },
+                "estimated_cost": {
+                  "amount_eur": 375000,
+                  "type": "CAPEX",
+                  "derivation": "Based on historical project costs."
+                },
+                "risk_reduction": {
+                  "estimate": "30%",
+                  "mechanism": "Reduced dependency on external water sources.",
+                  "evidence_basis": "Based on case studies from similar facilities."
+                },
+                "feasibility": "Medium",
+                "co_benefits": [
+                  "Lower operational costs",
+                  "Improved water quality",
+                  "Enhanced brand reputation"
+                ],
+                "dependencies": [
+                  "Availability of technology",
+                  "Regulatory approvals"
+                ],
+                "kpis": [
+                  "Volume of recycled water",
+                  "Cost savings from reduced water purchases",
+                  "Compliance with water regulations"
+                ]
+              }
+            ]
+          },
+          "long_term_transformations": {
+            "timeframe": "3-10 years",
+            "actions": [
+              {
+                "action_id": "LT1",
+                "title": "Establish Community Water Management Programs",
+                "description": "Develop programs in partnership with local communities to enhance water management practices and ensure sustainable use of water resources.",
+                "implementation_steps": [
+                  "Engage stakeholders in water management discussions.",
+                  "Develop community-based water management plans.",
+                  "Monitor and evaluate program effectiveness."
+                ],
+                "grounding": {
+                  "framework_alignment": "SBTN | TNFD | WWF | None",
+                  "framework_reference": "SBTN Community Engagement Guidelines",
+                  "framework_quote": "Promote greater youth inclusion in community water management.",
+                  "case_study_support": {
+                    "entity": "Nestlé",
+                    "action_taken": "Implemented community water management in Brazil.",
+                    "outcome": "Improved local water availability and management.",
+                    "source": "Nestlé Sustainability Report 2022"
+                  },
+                  "cost_benchmark": {
+                    "range": "€500,000-1,000,000",
+                    "unit": "program investment",
+                    "source": "Internal estimate based on similar community programs",
+                    "confidence": "Medium"
+                  }
+                },
+                "estimated_cost": {
+                  "amount_eur": 750000,
+                  "type": "CAPEX",
+                  "derivation": "Based on historical program costs."
+                },
+                "risk_reduction": {
+                  "estimate": "50%",
+                  "mechanism": "Enhanced community resilience to water scarcity.",
+                  "evidence_basis": "Based on community engagement outcomes."
+                },
+                "feasibility": "Medium",
+                "co_benefits": [
+                  "Stronger community ties",
+                  "Improved water quality",
+                  "Increased agricultural productivity"
+                ],
+                "dependencies": [
+                  "Community buy-in",
+                  "Funding availability"
+                ],
+                "kpis": [
+                  "Number of community members engaged",
+                  "Improvements in local water quality",
+                  "Sustainability of water resources"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "cross_cutting_initiatives": [],
+      "governance_recommendations": {
+        "board_level": [
+          "Establish a sustainability committee to oversee water management initiatives."
+        ],
+        "management_level": [
+          "Integrate water management into overall business strategy."
+        ],
+        "disclosure_actions": [
+          "Report on water usage and management practices annually."
+        ]
+      },
+      "implementation_roadmap": {
+        "phase_1": {
+          "name": "Foundation",
+          "duration": "1 year",
+          "key_milestones": [
+            "Complete initial assessments",
+            "Engage stakeholders"
+          ]
+        },
+        "phase_2": {
+          "name": "Acceleration",
+          "duration": "2 years",
+          "key_milestones": [
+            "Implement water efficiency practices",
+            "Train farmers"
+          ]
+        },
+        "phase_3": {
+          "name": "Transformation",
+          "duration": "5 years",
+          "key_milestones": [
+            "Establish community programs",
+            "Achieve water stewardship certifications"
+          ]
+        }
+      },
+      "monitoring_framework": {
+        "leading_indicators": [
+          "Reduction in water usage",
+          "Increase in crop yield"
+        ],
+        "lagging_indicators": [
+          "Improvement in water quality",
+          "Community engagement levels"
+        ],
+        "early_warning_triggers": [
+          "Increased water scarcity reports",
+          "Negative feedback from local communities"
+        ]
+      },
+      "grounding_summary": {
+        "total_strategies_proposed": 3,
+        "strategies_with_framework_support": 3,
+        "strategies_with_case_study_support": 3,
+        "strategies_with_cost_benchmarks": 3,
+        "gaps_identified": [],
+        "confidence_assessment": "Medium due to variability in local conditions and project execution."
+      },
+      "constraints_and_limitations": {
+        "assumptions": [
+          "Water availability will remain stable.",
+          "Community engagement will be effective."
+        ],
+        "uncertainties": [
+          "Potential regulatory changes.",
+          "Climate impacts on water resources."
+        ],
+        "external_dependencies": [
+          "Support from local governments.",
+          "Collaboration with NGOs."
+        ],
+        "resource_constraints": [
+          "Funding limitations.",
+          "Technological barriers."
+        ],
+        "knowledge_gaps": [
+          "Local water management practices.",
+          "Long-term impacts of implemented strategies."
+        ]
+      },
+      "revision_notes": "Initial strategy framework established based on retrieved evidence.",
+      "sources_bibliography": [
+        "Nestlé Sustainability Report 2022",
+        "SBTN Guidance Documents",
+        "TNFD Recommendations"
+      ],
+      "methodology_note": "Strategies developed based on evidence from multiple sources including case studies and cost benchmarks."
+    },
+    "stakeholder_narratives": {
+      "asset_id": "TEST_AGRI_01",
+      "generated_at": "2023-10-01T12:00:00Z",
+      "attempt_number": 1,
+      "executive_summary": {
+        "audience": "C-Suite, Board of Directors",
+        "reading_time": "2 minutes",
+        "headline": "Urgent transformation required to mitigate severe ecosystem degradation risks in Brazil's agricultural sector.",
+        "key_message": "Our agricultural asset in Brazil faces critical risks due to severe ecosystem degradation. Immediate strategic actions are necessary to safeguard operations and financial performance. Leadership must prioritize rapid transition strategies to align with market forces and mitigate risks.",
+        "risk_rating": {
+          "level": "Critical",
+          "trend": "Increasing",
+          "confidence": "High"
+        },
+        "financial_headline": "Total financial exposure is estimated at €14.6 million.",
+        "strategic_imperative": "Leadership must enable accelerated decarbonization and supply chain restructuring.",
+        "recommended_board_action": "Approve the proposed investment of €250,000 - €340,000 to implement water efficiency practices.",
+        "narrative": "The agricultural asset in Brazil is experiencing critical threats due to severe ecosystem degradation. With a physical risk score of 0.77, indicating very high risk, and a transition risk score of 0.63, the situation demands urgent transformation. Our dependencies on pollination, soil quality, and water resources are at very high risk levels, necessitating immediate action. Financial exposure is substantial, with potential impacts reaching €14.6 million, including significant operational and capital expenditures. Leadership must prioritize rapid decarbonization and restructuring of supply chains to mitigate stranded asset risk. We recommend the board approve a focused investment in water efficiency practices to address these challenges effectively."
+      },
+      "cfo_brief": {
+        "audience": "CFO, Finance Leadership, Investor Relations",
+        "reading_time": "5 minutes",
+        "financial_exposure_summary": {
+          "headline_figure": "€14.6 million potential exposure by 2030",
+          "breakdown": {
+            "operational_costs": "€4,886,730",
+            "capital_requirements": "€3,619,823",
+            "revenue_at_risk": "€6,116,639",
+            "potential_impairments": "Not specified"
+          },
+          "comparison_to_ebitda": "Represents a significant portion of potential EBITDA.",
+          "confidence_note": "Medium confidence in the proposed investment range."
+        },
+        "disclosure_implications": {
+          "tnfd_alignment": "Aligned with TNFD's risk management and strategy pillars.",
+          "csrd_materiality": "High materiality due to critical dependencies.",
+          "investor_pressure": "Increasing demand for transparency and action."
+        },
+        "investment_case": {
+          "proposed_investment": "€250,000 - €340,000",
+          "risk_reduction_value": "Substantial reduction in operational disruptions.",
+          "payback_logic": "Improved water efficiency leading to cost savings and mitigated risks."
+        },
+        "narrative": "The financial exposure of our Brazilian agricultural asset is projected to reach €14.6 million by 2030, driven by severe ecosystem degradation risks. This includes €4.9 million in operational costs and €3.6 million in capital requirements, with €6.1 million in potential revenue losses. The proposed investment of €250,000 - €340,000 in water efficiency practices is crucial to mitigate these risks. This aligns with TNFD and CSRD frameworks, addressing investor concerns and enhancing our sustainability profile. The payback from improved water efficiency and reduced operational disruptions is expected to be significant, supporting our financial stability and strategic objectives."
+      },
+      "sustainability_report_section": {
+        "audience": "External stakeholders, ESG analysts, regulators",
+        "reading_time": "7 minutes",
+        "tnfd_pillar_alignment": {
+          "governance": "Risk management frameworks in place.",
+          "strategy": "Focused on accelerated decarbonization.",
+          "risk_management": "Proactive measures to address ecosystem dependencies.",
+          "metrics_targets": "Specific metrics for water and soil quality improvements."
+        },
+        "leap_process_summary": {
+          "locate": "Identified critical dependencies on pollination and water resources.",
+          "evaluate": "Assessed very high risk levels for key dependencies.",
+          "assess": "Analyzed financial impacts and operational disruptions.",
+          "prepare": "Developed investment and strategy plans for mitigation."
+        },
+        "scenario_disclosure": {
+          "scenario_used": "Go fast or go home",
+          "key_assumptions": [
+            "Rapid transition",
+            "Market alignment"
+          ],
+          "time_horizons": [
+            "2030"
+          ],
+          "limitations": [
+            "Unquantified thresholds for some dependencies"
+          ]
+        },
+        "commitments": [
+          {
+            "commitment": "Implement water efficiency practices",
+            "target_year": "2025",
+            "baseline": "Current water usage levels",
+            "progress_indicator": "Reduction in water consumption"
+          }
+        ],
+        "narrative": "In alignment with TNFD guidelines, our sustainability strategy for the Brazilian agricultural asset focuses on managing critical dependencies on pollination and water resources. These dependencies are at very high risk, necessitating immediate action. Our approach includes enhanced governance frameworks and strategic investments in water efficiency and recycling technologies. By 2025, we aim to significantly reduce water consumption, aligning with our commitment to sustainable operations. The scenario 'Go fast or go home' underpins our strategy, emphasizing rapid transition and market alignment. While some thresholds remain unquantified, our proactive measures are designed to mitigate financial and operational impacts, supporting long-term resilience."
+      },
+      "risk_committee_memo": {
+        "audience": "Board Risk Committee, Group Risk Function",
+        "reading_time": "5 minutes",
+        "risk_classification": {
+          "risk_type": "Strategic",
+          "risk_category": "Nature-related Physical Risk",
+          "inherent_risk_rating": "Critical",
+          "control_effectiveness": "Needs Improvement",
+          "residual_risk_rating": "High"
+        },
+        "risk_appetite_alignment": "Current exposure exceeds risk appetite; urgent mitigation required.",
+        "control_environment": {
+          "existing_controls": [
+            "Basic water management practices"
+          ],
+          "control_gaps": [
+            "Lack of advanced water recycling technologies"
+          ],
+          "recommended_enhancements": [
+            "Invest in water recycling",
+            "Enhance soil quality monitoring"
+          ]
+        },
+        "escalation_triggers": [
+          {
+            "trigger": "Water scarcity levels",
+            "threshold": "Below 50% availability",
+            "escalation_path": "Immediate notification to Risk Committee"
+          }
+        ],
+        "narrative": "The risk landscape for our agricultural asset in Brazil is marked by critical nature-related physical risks, primarily due to dependencies on water and soil quality. Current controls are inadequate, necessitating significant enhancements. Our inherent risk rating is critical, with residual risk remaining high despite existing measures. The risk committee must prioritize investments in advanced water recycling technologies and improved soil monitoring to align with our risk appetite. We propose clear escalation triggers for water scarcity to ensure timely response and governance oversight. These measures are essential for maintaining operational resilience and safeguarding financial performance."
+      },
+      "operational_brief": {
+        "audience": "Site managers, Asset managers, Operations teams",
+        "reading_time": "10 minutes",
+        "situation_summary": "Our Brazilian agricultural asset faces severe risks from ecosystem degradation, notably in water and soil quality.",
+        "why_this_matters_locally": "Local operations depend heavily on water and soil quality, which are currently at very high risk levels, threatening production stability.",
+        "immediate_actions": [
+          {
+            "action": "Implement water efficiency practices",
+            "owner": "Site Manager",
+            "deadline": "Q1 2024",
+            "resources_needed": "€250,000 - €340,000 investment",
+            "success_criteria": "Reduction in water usage by 20%"
+          }
+        ],
+        "monitoring_requirements": [
+          {
+            "what_to_monitor": "Water usage levels",
+            "frequency": "Monthly",
+            "escalation_threshold": "Above 80% usage",
+            "reporting_to": "Operations Director"
+          }
+        ],
+        "scenario_planning": {
+          "if_moderate_degradation": "Adjust water usage strategies",
+          "if_severe_degradation": "Activate emergency water sourcing",
+          "emergency_contacts": "Local water authorities"
+        },
+        "training_needs": [
+          "Water management best practices"
+        ],
+        "narrative": "Our operations in Brazil are critically dependent on the sustainability of local ecosystems, particularly water and soil quality. With these resources at very high risk, immediate implementation of water efficiency practices is crucial. The site manager is tasked with reducing water usage by 20% by Q1 2024, supported by an investment of €250,000 - €340,000. Monthly monitoring of water usage is required, with escalation protocols in place for excessive usage. In the event of moderate or severe degradation, contingency plans include adjusting strategies and engaging with local authorities. Training in water management best practices will equip teams to handle these challenges effectively."
+      },
+      "key_messages_summary": {
+        "one_liner": "Urgent action needed to address critical ecosystem risks in Brazilian agriculture.",
+        "elevator_pitch": "Our Brazilian agricultural asset is under critical threat from ecosystem degradation, with financial exposure of €14.6 million by 2030. Immediate investment in water efficiency is essential to mitigate these risks and ensure operational resilience.",
+        "three_key_points": [
+          "Critical risks from ecosystem degradation require urgent action.",
+          "Financial exposure could reach €14.6 million by 2030.",
+          "Investment in water efficiency is crucial for risk mitigation."
+        ],
+        "call_to_action": "Approve the proposed investment and implement recommended strategies immediately."
+      },
+      "revision_notes": "",
+      "narrative_methodology": {
+        "inputs_used": [
+          "Asset Profile",
+          "Scenario Context",
+          "Critical Dependencies",
+          "Evidence-Grounded Pathways",
+          "Financial Exposure",
+          "Proposed Investment",
+          "Key Strategies Identified"
+        ],
+        "framing_approach": "Audience-specific narratives focused on strategic, financial, and operational implications.",
+        "limitations": [
+          "Unquantified thresholds for some dependencies",
+          "Medium confidence in investment projections"
+        ]
+      }
+    },
+    "evaluation_result": {
+      "evaluation_timestamp": "2023-10-05T12:00:00Z",
+      "overall_pass": false,
+      "overall_score": 72,
+      "regeneration_required": {
+        "evidence_synthesizer": true,
+        "adaptation_strategist": false,
+        "narrative_intelligence": false
+      },
+      "agent_evaluations": {
+        "evidence_synthesizer": {
+          "score": 70,
+          "pass": false,
+          "threshold": 75,
+          "criteria_scores": {
+            "groundedness": {
+              "score": 80,
+              "weight": 0.3,
+              "notes": "Most claims are supported by retrieved evidence."
+            },
+            "completeness": {
+              "score": 60,
+              "weight": 0.25,
+              "notes": "Some critical dependencies, like water quality regulation, are not addressed."
+            },
+            "accuracy": {
+              "score": 75,
+              "weight": 0.25,
+              "notes": "Quotes are accurate, but some references lack clarity."
+            },
+            "gap_honesty": {
+              "score": 50,
+              "weight": 0.2,
+              "notes": "Gaps in evidence are acknowledged, but not sufficiently detailed."
+            }
+          },
+          "strengths": [
+            "Good grounding of claims in evidence.",
+            "Relevant empirical precedents."
+          ],
+          "critical_issues": [
+            "Incomplete coverage of critical dependencies.",
+            "Lack of specific thresholds."
+          ],
+          "improvement_feedback": "Address all critical dependencies, especially water quality regulation, and provide specific thresholds where applicable."
+        },
+        "adaptation_strategist": {
+          "score": 80,
+          "pass": true,
+          "threshold": 75,
+          "criteria_scores": {
+            "specificity": {
+              "score": 85,
+              "weight": 0.3,
+              "notes": "Actions are concrete and implementable."
+            },
+            "feasibility": {
+              "score": 75,
+              "weight": 0.25,
+              "notes": "Recommendations are realistic for the sector."
+            },
+            "sequencing": {
+              "score": 80,
+              "weight": 0.2,
+              "notes": "Short and medium-term actions are logically sequenced."
+            },
+            "cost_realism": {
+              "score": 70,
+              "weight": 0.15,
+              "notes": "Cost estimates are plausible but could use more detail."
+            },
+            "pathway_alignment": {
+              "score": 90,
+              "weight": 0.1,
+              "notes": "Strategies align well with identified pathways."
+            }
+          },
+          "strengths": [
+            "Concrete actions with clear implementation steps.",
+            "Good alignment with frameworks."
+          ],
+          "critical_issues": [
+            "Cost estimates could be more detailed."
+          ],
+          "improvement_feedback": "Provide more detailed cost breakdowns and acknowledge uncertainties in cost estimates."
+        },
+        "narrative_intelligence": {
+          "score": 75,
+          "pass": true,
+          "threshold": 75,
+          "criteria_scores": {
+            "audience_fit": {
+              "score": 80,
+              "weight": 0.3,
+              "notes": "Narratives are tailored to the audience."
+            },
+            "factual_accuracy": {
+              "score": 70,
+              "weight": 0.25,
+              "notes": "Accurate reflection of analysis, but some financial figures need clarification."
+            },
+            "actionability": {
+              "score": 75,
+              "weight": 0.2,
+              "notes": "Next steps are appropriate but could be more specific."
+            },
+            "tone_calibration": {
+              "score": 80,
+              "weight": 0.15,
+              "notes": "Tone is appropriate for the audience."
+            },
+            "disclosure_readiness": {
+              "score": 70,
+              "weight": 0.1,
+              "notes": "Sustainability section is usable but lacks some detail."
+            }
+          },
+          "strengths": [
+            "Well-tailored narratives for different audiences.",
+            "Clear strategic imperatives."
+          ],
+          "critical_issues": [
+            "Some financial figures need clarification to ensure consistency."
+          ],
+          "improvement_feedback": "Clarify financial figures and enhance specificity in next steps."
+        }
+      },
+      "cross_agent_consistency": {
+        "score": 65,
+        "issues": [
+          "Inconsistencies in addressing critical dependencies between agents."
+        ],
+        "notes": "Agent 1 did not address water quality regulation, while Agents 2 and 3 focused on water management."
+      },
+      "hallucination_check": {
+        "hallucinations_detected": false,
+        "instances": []
+      },
+      "ground_truth_alignment": {
+        "dependencies_addressed": "5 of 7 critical dependencies covered",
+        "scenario_consistency": "Outputs align with the selected scenario of urgent transformation.",
+        "financial_consistency": "Narratives match financial figures, but some details need clarification."
+      },
+      "summary": {
+        "verdict": "Overall, the outputs show promise but require regeneration for the Evidence Synthesizer to address critical gaps.",
+        "primary_strength": "Strong grounding in evidence and actionable strategies.",
+        "primary_concern": "Incomplete coverage of critical dependencies in the Evidence Synthesizer.",
+        "recommendation": "Regenerate Agent 1"
+      }
+    },
+    "generation_attempts": 1,
+    "explainability_pack": {
+      "rag_strategy": {
+        "approach": "Multi-query focused retrieval",
+        "rationale": "Single large queries dilute semantic focus. Multiple targeted queries improve precision.",
+        "query_count": 5,
+        "total_chunks_target": 16,
+        "query_breakdown": [
+          {
+            "type": "framework",
+            "intent": "Retrieve risk assessment and scenario guidance",
+            "top_k": 4
+          },
+          {
+            "type": "service_critical",
+            "intent": "Retrieve degradation pathways for Pollination (Very High dependency)",
+            "top_k": 3
+          },
+          {
+            "type": "service_critical",
+            "intent": "Retrieve degradation pathways for Soil Quality Regulation (Very High dependency)",
+            "top_k": 3
+          },
+          {
+            "type": "service_critical",
+            "intent": "Retrieve degradation pathways for Surface Water (Very High dependency)",
+            "top_k": 3
+          },
+          {
+            "type": "scenario",
+            "intent": "Retrieve narrative context for \"Go fast or go home\" scenario",
+            "top_k": 3
+          }
+        ],
+        "context_used": {
+          "scenario": "Go fast or go home",
+          "sector": "food_agriculture",
+          "critical_services": [
+            "Pollination",
+            "Soil Quality Regulation",
+            "Surface Water",
+            "Ground Water",
+            "Pest & Disease Control",
+            "Water Quality Regulation",
+            "Climate Regulation"
+          ],
+          "country": "Brazil",
+          "biome": "Tropical & Subtropical Grasslands, Savannas & Shrublands"
+        }
+      },
+      "rag_queries_used": [
+        {
+          "type": "framework",
+          "query": "TNFD LEAP Assess nature-related risks opportunities scenario analysis financial materiality Go fast or go home horizon 2030",
+          "intent": "Retrieve risk assessment and scenario guidance",
+          "top_k": 4,
+          "priority": 1,
+          "doc_types": [
+            "guidance",
+            "scenario"
+          ]
+        },
+        {
+          "type": "service_critical",
+          "query": "pollination pollinator decline bee colony collapse crop yields agricultural dependence insect populations Agriculture Brazil unknown",
+          "intent": "Retrieve degradation pathways for Pollination (Very High dependency)",
+          "top_k": 3,
+          "priority": 2,
+          "ecosystem_service": "Pollination",
+          "dependency_strength": "Very High",
+          "transmission_channels": [
+            "yield losses",
+            "hand pollination costs",
+            "crop failure risk"
+          ],
+          "keywords": [
+            "pollinator decline",
+            "bee populations",
+            "crop yields",
+            "pollination services"
+          ]
+        },
+        {
+          "type": "service_critical",
+          "query": "soil quality fertility erosion degradation soil health regenerative agriculture nutrient cycling Agriculture Brazil unknown",
+          "intent": "Retrieve degradation pathways for Soil Quality Regulation (Very High dependency)",
+          "top_k": 3,
+          "priority": 2,
+          "ecosystem_service": "Soil Quality Regulation",
+          "dependency_strength": "Very High",
+          "transmission_channels": [
+            "yield reduction",
+            "input costs",
+            "land value"
+          ],
+          "keywords": [
+            "soil fertility",
+            "erosion",
+            "degradation",
+            "regenerative",
+            "nutrient cycling"
+          ]
+        },
+        {
+          "type": "service_critical",
+          "query": "surface water dependency water scarcity freshwater availability drought water allocation industrial water use competition Agriculture Brazil unknown",
+          "intent": "Retrieve degradation pathways for Surface Water (Very High dependency)",
+          "top_k": 3,
+          "priority": 2,
+          "ecosystem_service": "Surface Water",
+          "dependency_strength": "Very High",
+          "transmission_channels": [
+            "operational costs",
+            "production disruption",
+            "permit constraints"
+          ],
+          "keywords": [
+            "water scarcity",
+            "drought",
+            "allocation",
+            "abstraction",
+            "water stress"
+          ]
+        },
+        {
+          "type": "scenario",
+          "query": "nature scenario severe degradation rapid transition tipping points urgent action ecosystem collapse coordinated response",
+          "intent": "Retrieve narrative context for \"Go fast or go home\" scenario",
+          "top_k": 3,
+          "priority": 3,
+          "keywords": [
+            "rapid action",
+            "tipping points",
+            "urgent",
+            "severe degradation",
+            "coordinated transition"
+          ],
+          "risk_narrative": "Crisis-driven transformation with high capital reallocation"
+        }
+      ],
+      "chunks_retrieved": 0,
+      "dependency_derivation": {
+        "method": "ENCORE-aligned sector mapping with environmental context adjustment",
+        "framework_source": "Natural Capital Finance Alliance ENCORE Database",
+        "framework_url": "https://encore.naturalcapital.finance",
+        "version": "2.0.0",
+        "sectors_covered": 10,
+        "ecosystem_services_covered": 16,
+        "auto_derived": true,
+        "derivation_timestamp": "2026-01-08T20:54:26.654Z"
+      },
+      "scenario_methodology": {
+        "framework": "TNFD Scenario Analysis Guidance v1.0",
+        "framework_url": "https://tnfd.global/recommendations-of-the-tnfd/additional-guidance/scenario-analysis/",
+        "axes_basis": "Physical risk from ENCORE dependency mapping; Transition risk from policy alignment + sector pressure",
+        "version": "2.0.0",
+        "calculated_at": "2026-01-08T20:54:26.694Z"
+      },
+      "evaluation_methodology": "Multi-agent unified evaluation with hallucination detection"
+    }
+  }
+]
