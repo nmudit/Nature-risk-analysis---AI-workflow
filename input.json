@@ -1,0 +1,15 @@
+[
+  {
+    "name": "High Impact Agri (Brazil)",
+    "body": [
+      {
+        "asset_id": "TEST_AGRI_01",
+        "sector": "Agriculture",
+        "lat": -15.79,
+        "lon": -47.88,
+        "value_eur": 5000000,
+        "country": "Brazil"
+      }
+    ]
+  }
+]
